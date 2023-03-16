@@ -30,8 +30,13 @@ a {
 }
 
 .bg-light {
-  background-color: #fff;
+  background-color: #eee;
   color: #333;
+}
+
+.bg-dark {
+  background-color: #333;
+  color: #fff;
 }
 
 .text-primary {
@@ -143,4 +148,47 @@ a {
 #what .boxes h3 {
   font-size: 2rem;
   margin-bottom: 2rem;
+}
+
+/* who */
+#who {
+  display: flex;
+  height: 80vh;
+  margin-top: -14rem;
+}
+
+#who div {
+  flex: 1;
+}
+
+#who div:first-child {
+  flex: 2;
+}
+
+#who .who-img {
+  background: url("./img/team.jpg") no-repeat center center/cover;
+}
+
+#who .who-content {
+  padding: 10rem;
+  /* padding-top: 20rem; */
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: center;
+  padding-top: 24rem;
+}
+
+#who .who-content h3 {
+  margin-bottom: 2rem;
+}
+
+#who .who-content ul li {
+  margin-bottom: 2rem;
+  border-bottom: 1px dotted #eee;
+  padding: 1rem;
+}
+
+#who .who-content ul li:last-child {
+  border: none;
 }
