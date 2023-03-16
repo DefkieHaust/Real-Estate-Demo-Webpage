@@ -39,6 +39,11 @@ a {
   color: #fff;
 }
 
+bg-primary {
+  background-color: #93CB52;
+  color: #fff;
+}
+
 .text-primary {
   color: #93CB52;
 }
@@ -75,6 +80,15 @@ a {
 
 .btn:hover {
   background-color: #568f15;
+}
+
+.btn-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-dark:hover {
+  background-color: #444;
 }
 
 /* Navbar */
@@ -191,4 +205,77 @@ a {
 
 #who .who-content ul li:last-child {
   border: none;
+}
+
+/* Clients */
+#clients {
+  padding: 5rem;
+}
+
+#clients .clients {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  align-items: center;
+}
+
+#clients .clients img {
+  height: 15rem;
+  display: block;
+}
+
+#clients .clients div {
+  flex: 1;
+  margin: 2rem;
+}
+
+/* Contact */
+#contact {
+  display: flex;
+  height: 60vh;
+}
+
+#contact .contact-form,
+#contact .map {
+  flex: 1;
+}
+
+#contact .contact-form {
+  padding: 5rem;
+}
+
+#contact .contact-form label,
+#contact .contact-form input,
+#contact .contact-form textarea {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+#contact .contact label {
+  margin-bottom: 0.2rem;
+}
+
+#contact .map {
+  background-color: #eee;
+}
+
+#contact .map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#footer {
+  background-color: #333;
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
 }
