@@ -39,7 +39,7 @@ a {
   color: #fff;
 }
 
-bg-primary {
+.bg-primary {
   background-color: #93CB52;
   color: #fff;
 }
@@ -93,11 +93,14 @@ bg-primary {
 
 /* Navbar */
 #navbar {
+  position: fixed;
+  width: 100%;
   background-color: #333;
   color: #fff;
   display: flex;
   justify-content: space-between;
   padding: 2rem;
+  z-index: 3;
 }
 
 #navbar a {
@@ -123,15 +126,15 @@ bg-primary {
 
 /* Header */
 #header {
-  background: linear-gradient(rbga(51, 51, 51, 0.7), rbga(51, 51, 51, 0.7)), url('./img/header.jpg') no-repeat center center/cover;
-  height: 93vh;
+  background: linear-gradient(rgba(51, 51, 51, 0.7), rgba(51, 51, 51, 0.7)), url('/img/header.jpg') no-repeat center center/cover;
+  height: 100vh;
   text-align: center;
 }
 
 #header .header-content {
   display: flex;
   flex-direction: column;
-  height: 93vh;
+  height: 100vh;
   align-items: center;
   justify-content: center;
   color: #fff;
@@ -157,6 +160,7 @@ bg-primary {
   background-color: #93CB52;
   padding: 3.5rem;
   border-radius: 50%;
+  margin-bottom: 2rem;
 }
 
 #what .boxes h3 {
@@ -167,8 +171,8 @@ bg-primary {
 /* who */
 #who {
   display: flex;
-  height: 80vh;
-  margin-top: -14rem;
+  height: 120vh;
+  margin-top: -10rem;
 }
 
 #who div {
@@ -190,7 +194,7 @@ bg-primary {
   flex-direction: column;
   height: 70vh;
   justify-content: center;
-  padding-top: 24rem;
+  padding-top: 35rem;
 }
 
 #who .who-content h3 {
@@ -232,7 +236,6 @@ bg-primary {
 /* Contact */
 #contact {
   display: flex;
-  height: 60vh;
 }
 
 #contact .contact-form,
