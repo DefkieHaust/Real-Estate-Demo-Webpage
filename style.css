@@ -29,8 +29,17 @@ a {
   padding: 2rem;
 }
 
+.bg-light {
+  background-color: #fff;
+  color: #333;
+}
+
 .text-primary {
   color: #93CB52;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .l-heading {
@@ -107,4 +116,31 @@ a {
   align-items: center;
   justify-content: center;
   color: #fff;
+}
+
+#what {
+  clip-path: polygon(0 0, 100% 0%, 100% 88%, 0% 100%);
+  padding-bottom: 10rem;
+  padding-top: 2rem;
+}
+
+#what .boxes {
+  display: flex;
+  text-align: center;
+}
+
+#what .boxes .box {
+  flex: 1;
+  padding: 2rem;
+}
+
+#what .boxes i {
+  background-color: #93CB52;
+  padding: 3.5rem;
+  border-radius: 50%;
+}
+
+#what .boxes h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
