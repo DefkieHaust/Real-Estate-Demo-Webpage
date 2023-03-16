@@ -59,6 +59,10 @@ a {
   border-radius: 0.5rem;
 }
 
+.btn:hover {
+  background-color: #568f15;
+}
+
 /* Navbar */
 #navbar {
   background-color: #333;
