@@ -76,6 +76,7 @@ a {
   padding: 1.3rem 1.5rem;
   border: none;
   border-radius: 0.5rem;
+  transition: 0.4s ease-in-out;
 }
 
 .btn:hover {
@@ -117,6 +118,7 @@ a {
 #navbar ul li a {
   padding: 1.7rem;
   margin: 0.5rem;
+  transition: 0.3s ease-in-out;
 }
 
 #navbar ul li a:hover {
@@ -161,6 +163,13 @@ a {
   padding: 3.5rem;
   border-radius: 50%;
   margin-bottom: 2rem;
+  transition: 0.5s ease-in-out;
+}
+
+#what .boxes i:hover {
+  background-color: #fff;
+  color: #93CB52;
+  font-size: 4rem;
 }
 
 #what .boxes h3 {
@@ -181,10 +190,18 @@ a {
 
 #who div:first-child {
   flex: 2;
+  background-color: #fff;
 }
 
 #who .who-img {
   background: url("./img/team.jpg") no-repeat center center/cover;
+  background-position-x: 60vw;
+  transition: 2s ease-in-out;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+#who:hover .who-img {
+  background-position-x: center;
 }
 
 #who .who-content {
@@ -205,10 +222,15 @@ a {
   margin-bottom: 2rem;
   border-bottom: 1px dotted #eee;
   padding: 1rem;
+  transition: 0.3s ease-in-out;
 }
 
 #who .who-content ul li:last-child {
   border: none;
+}
+
+#who .who-content ul li:hover {
+  font-size: 2rem;
 }
 
 /* Clients */
